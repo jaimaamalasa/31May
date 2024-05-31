@@ -1,0 +1,58 @@
+.common
+{
+width: 150px;
+height: 150px;
+border: 1px solid gray;
+border-radius: 75px;
+float: left;
+animation-name: bounce;
+animation-duration: 0.80s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in;
+}
+@keyframes bounce
+{
+    from{
+        transform: translate(0px,0px);
+    }
+    
+    to{
+        transform: translate(0px,500px);
+    }
+}
+.a
+{   
+background-color: aquamarine;
+text-align:center;
+}
+.b
+{   
+    animation-delay: 0.5s;
+background-color: lightpink;
+text-align:center;
+}
+.c
+{   
+    animation-delay: 0.8s;
+background-color: lightblue;
+text-align:center;
+}
+.d
+{   
+    animation-delay: 0.5s;
+background-color: lightgreen;
+text-align:center;
+}
+.e
+{   
+    animation-delay: 0.7s;
+background-color: lightseagreen;
+text-align:center;
+}
+.f
+{   
+    animation-delay: 0.9s;
+background-color: lightgoldenrodyellow;
+text-align:center;
+}
